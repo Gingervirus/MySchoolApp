@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MySchoolApp</string>
+    <string name="radio_teacher">Teacher</string>
+    <string name="radio_principal">Principal</string>
+    <string name="radio_secratary">Secratary</string>
+    <string name="btn_preview">Preview</string>
 </resources>

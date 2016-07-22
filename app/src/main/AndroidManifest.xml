@@ -8,13 +8,38 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.Employee.EmployeeMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".activities.Employee.EmployeeAddActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Employee.EmployeePreview">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Employee.EmployeeShowAll">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.Employee.InsertEmployeeService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".services.Employee.UpdateEmployeeService"
+            android:enabled="true"
+            android:exported="true"></service>
+
     </application>
 
 </manifest>

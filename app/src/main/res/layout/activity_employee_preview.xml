@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preview"
+        android:id="@+id/Preview_TextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="firstname"
+        android:id="@+id/txtName"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/Preview_TextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lastname"
+        android:id="@+id/txtSurname"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtName"
+        android:layout_alignLeft="@+id/txtName"
+        android:layout_alignStart="@+id/txtName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date of birth"
+        android:id="@+id/txtDob"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtSurname"
+        android:layout_alignLeft="@+id/txtSurname"
+        android:layout_alignStart="@+id/txtSurname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gender"
+        android:id="@+id/txtGender"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtDob"
+        android:layout_alignLeft="@+id/txtDob"
+        android:layout_alignStart="@+id/txtDob" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cellphone"
+        android:id="@+id/txtCellphone"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtGender"
+        android:layout_alignLeft="@+id/txtGender"
+        android:layout_alignStart="@+id/txtGender" />
+    i.putExtra("workHours",workHours);
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sars"
+        android:id="@+id/txtSars"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtCellphone"
+        android:layout_alignLeft="@+id/txtCellphone"
+        android:layout_alignStart="@+id/txtCellphone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job"
+        android:id="@+id/txtJob"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtSars"
+        android:layout_alignLeft="@+id/txtSars"
+        android:layout_alignStart="@+id/txtSars" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salary"
+        android:id="@+id/txtSalary"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtJob"
+        android:layout_alignLeft="@+id/txtJob"
+        android:layout_alignStart="@+id/txtJob" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="working hours"
+        android:id="@+id/txtHours"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txtSalary"
+        android:layout_alignLeft="@+id/txtSalary"
+        android:layout_alignStart="@+id/txtSalary" />
+
+    <Button
+        android:id="@+id/Btnsumbit"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnSubmit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtHours"
+        android:layout_alignEnd="@+id/txtHours"
+        android:layout_marginBottom="92dp" />
+
+</RelativeLayout>
