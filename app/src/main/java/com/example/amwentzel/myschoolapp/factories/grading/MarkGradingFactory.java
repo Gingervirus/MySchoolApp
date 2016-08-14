@@ -1,10 +1,5 @@
 package com.example.amwentzel.myschoolapp.factories.grading;
 
-import com.example.amwentzel.myschoolapp.domain.grading.Grading;
-import com.example.amwentzel.myschoolapp.domain.grading.GradingOne;
-import com.example.amwentzel.myschoolapp.domain.grading.GradingThree;
-import com.example.amwentzel.myschoolapp.domain.grading.GradingTwo;
-
 /**
  * Created by Armin on 2016-04-07.
  */

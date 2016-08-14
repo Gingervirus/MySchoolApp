@@ -8,7 +8,7 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 import android.test.AndroidTestCase;
 
-import com.example.amwentzel.myschoolapp.domain.employee.EmployeeData;
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeData;
 import com.example.amwentzel.myschoolapp.factories.employee.EmployeeFactory;
 import com.example.amwentzel.myschoolapp.services.Employee.InsertEmployeeService;
 

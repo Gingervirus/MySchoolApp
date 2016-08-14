@@ -1,12 +1,6 @@
 package com.example.amwentzel.myschoolapp.factories.workingHours;
 
 
-import com.example.amwentzel.myschoolapp.domain.workingHours.WorkingHours;
-import com.example.amwentzel.myschoolapp.domain.workingHours.WorkingHoursCleaner;
-import com.example.amwentzel.myschoolapp.domain.workingHours.WorkingHoursPrincipal;
-import com.example.amwentzel.myschoolapp.domain.workingHours.WorkingHoursSecratary;
-import com.example.amwentzel.myschoolapp.domain.workingHours.WorkingHoursTeacher;
-
 /**
  * Created by Armin on 2016-04-06.
  */

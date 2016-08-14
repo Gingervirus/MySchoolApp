@@ -1,7 +1,7 @@
 package com.example.amwentzel.myschoolapp.factories.employee;
 
-import com.example.amwentzel.myschoolapp.domain.employee.EmployeeData;
-import com.example.amwentzel.myschoolapp.domain.employee.EmployeeDetails;
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeData;
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeDetails;
 import com.example.amwentzel.myschoolapp.factories.salary.SalaryFactory;
 import com.example.amwentzel.myschoolapp.factories.workingHours.WorkingHoursFactory;
 

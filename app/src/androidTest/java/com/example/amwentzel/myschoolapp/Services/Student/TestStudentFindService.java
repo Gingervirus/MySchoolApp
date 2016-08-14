@@ -7,7 +7,7 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 import android.test.AndroidTestCase;
 
-import com.example.armin.tp5.services.Student.SearchStudentService;
+import com.example.amwentzel.myschoolapp.services.Student.SearchStudentService;
 
 import junit.framework.Assert;
 

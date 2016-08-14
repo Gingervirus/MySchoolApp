@@ -8,6 +8,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.amwentzel.myschoolapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.login.LoginActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".activities.login.SignupActivity" android:theme="@style/AppTheme.Dark" />
+
         <activity android:name=".activities.Employee.EmployeeMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +42,11 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".services.login.Impl.ActivateLoginServiceImpl"
+            android:enabled="true"
+            android:exported="true"></service>
 
         <service
             android:name=".services.Employee.InsertEmployeeService"

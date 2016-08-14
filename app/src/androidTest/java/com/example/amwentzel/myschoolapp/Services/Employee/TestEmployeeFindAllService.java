@@ -7,8 +7,9 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 import android.test.AndroidTestCase;
 
-import com.example.armin.tp5.domain.Employee.EmployeeData;
-import com.example.armin.tp5.services.Employee.FindAllEmployeeService;
+
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeData;
+import com.example.amwentzel.myschoolapp.services.Employee.FindAllEmployeeService;
 
 import junit.framework.Assert;
 

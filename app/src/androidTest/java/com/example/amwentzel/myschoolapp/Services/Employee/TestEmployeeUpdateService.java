@@ -8,8 +8,8 @@ import android.os.IBinder;
 import android.test.AndroidTestCase;
 
 
-import com.example.amwentzel.myschoolapp.domain.employee.EmployeeData;
-import com.example.amwentzel.myschoolapp.domain.employee.EmployeeDetails;
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeData;
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeDetails;
 import com.example.amwentzel.myschoolapp.factories.salary.SalaryFactory;
 import com.example.amwentzel.myschoolapp.factories.workingHours.WorkingHoursFactory;
 import com.example.amwentzel.myschoolapp.services.Employee.UpdateEmployeeService;

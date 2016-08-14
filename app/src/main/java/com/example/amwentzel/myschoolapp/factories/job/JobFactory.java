@@ -1,12 +1,6 @@
 package com.example.amwentzel.myschoolapp.factories.job;
 
 
-import com.example.amwentzel.myschoolapp.domain.job.Job;
-import com.example.amwentzel.myschoolapp.domain.job.JobCleaner;
-import com.example.amwentzel.myschoolapp.domain.job.JobPrincipal;
-import com.example.amwentzel.myschoolapp.domain.job.JobSecretary;
-import com.example.amwentzel.myschoolapp.domain.job.JobTeacher;
-
 /**
  * Created by Armin on 2016-04-06.
  */

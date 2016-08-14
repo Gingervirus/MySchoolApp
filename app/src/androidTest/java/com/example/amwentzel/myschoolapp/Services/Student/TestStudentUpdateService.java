@@ -7,9 +7,9 @@ import android.content.ServiceConnection;
 import android.os.IBinder;
 import android.test.AndroidTestCase;
 
-import com.example.armin.tp5.domain.Student.StudentData;
-import com.example.armin.tp5.factories.Student.StudentFactory;
-import com.example.armin.tp5.services.Student.UpdateStudentService;
+import com.example.amwentzel.myschoolapp.domain.student.StudentData;
+import com.example.amwentzel.myschoolapp.factories.student.StudentFactory;
+import com.example.amwentzel.myschoolapp.services.Student.UpdateStudentService;
 
 import junit.framework.Assert;
 

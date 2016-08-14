@@ -3,7 +3,6 @@ package com.example.amwentzel.myschoolapp.factories.student;
 
 import com.example.amwentzel.myschoolapp.domain.student.StudentData;
 import com.example.amwentzel.myschoolapp.domain.student.StudentDetails;
-import com.example.amwentzel.myschoolapp.factories.detention.DetentionFactory;
 
 /**
  * Created by Armin on 2016-05-08.
@@ -83,7 +82,7 @@ public class StudentFactory {
                 .studNr(studNr)
                 .studentDetails(stud)
                 .marks(marks)
-                .detention(DetentionFactory.getDetention("YES"))
+                //.detention(DetentionRepository.getDetention("YES"))
                 .grade(grade)
                 .build();
         return person;

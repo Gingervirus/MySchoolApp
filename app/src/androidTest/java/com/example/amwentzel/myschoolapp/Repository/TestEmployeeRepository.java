@@ -2,12 +2,12 @@ package com.example.amwentzel.myschoolapp.Repository;
 
 import android.test.AndroidTestCase;
 
-import com.example.armin.tp5.domain.Employee.EmployeeData;
-import com.example.armin.tp5.domain.Employee.EmployeeDetails;
-import com.example.armin.tp5.factories.Salary.SalaryFactory;
-import com.example.armin.tp5.factories.WorkingHours.WorkingHoursFactory;
-import com.example.armin.tp5.repository.Employee.EmployeeRepository;
-import com.example.armin.tp5.repository.Employee.Impl.EmployeeRepositoryImpl;
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeData;
+import com.example.amwentzel.myschoolapp.domain.teacher.EmployeeDetails;
+import com.example.amwentzel.myschoolapp.factories.salary.SalaryFactory;
+import com.example.amwentzel.myschoolapp.factories.workingHours.WorkingHoursFactory;
+import com.example.amwentzel.myschoolapp.repository.Employee.EmployeeRepository;
+import com.example.amwentzel.myschoolapp.repository.Employee.Impl.EmployeeRepositoryImpl;
 
 import junit.framework.Assert;
 
@@ -23,7 +23,7 @@ public class TestEmployeeRepository extends AndroidTestCase{
         private Long id;
 
     public void testCreateReadUpdateDelete() throws Exception {
-        EmployeeRepository repo = new EmployeeRepositoryImpl(this.getContext());
+        EmployeeRepositoryImpl repo = new EmployeeRepositoryImpl(this.getContext());
         // CREATE
 
         EmployeeDetails details = new EmployeeDetails.Builder()

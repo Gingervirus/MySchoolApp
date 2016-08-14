@@ -5,5 +5,5 @@ package com.example.amwentzel.myschoolapp.config.database;
  */
 public class DBConstants {
     public static final String DATABASE_NAME="schoolDB";
-    public static final int DATABASE_VERSION=1;
+    public static final int DATABASE_VERSION=2;
 }

@@ -1,10 +1,11 @@
 package com.example.amwentzel.myschoolapp.Repository;
 import android.test.AndroidTestCase;
 
-import com.example.armin.tp5.domain.Student.StudentData;
-import com.example.armin.tp5.domain.Student.StudentDetails;
-import com.example.armin.tp5.repository.Student.Impl.StudentRepositoryImpl;
-import com.example.armin.tp5.repository.Student.StudentRepository;
+
+import com.example.amwentzel.myschoolapp.domain.student.StudentData;
+import com.example.amwentzel.myschoolapp.domain.student.StudentDetails;
+import com.example.amwentzel.myschoolapp.repository.Student.Impl.StudentRepositoryImpl;
+import com.example.amwentzel.myschoolapp.repository.Student.StudentRepository;
 
 import junit.framework.Assert;
 
